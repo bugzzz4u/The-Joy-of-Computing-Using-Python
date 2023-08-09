@@ -16,4 +16,10 @@ print(age)
 
 print("What is your name?")
 n=input("What is your name?")
+print(n)
 
+c=input("Enter the cost of the item:")
+print(c)
+d=int(c)
+answer=0.9*d
+print("The cost after discount is",answer)
